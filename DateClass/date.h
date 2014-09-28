@@ -22,7 +22,7 @@ public:
 	Date(); // deefault constructor
 	Date(int d); // conversion constructor
 	Date(int y, int m, int d); // constructor takes 3 parameters
-	~Date();
+	~Date(); // destructor
 	bool SetDate(int y, int m, int d);
 	void Show() const;
 	Date operator++(); // prefix
