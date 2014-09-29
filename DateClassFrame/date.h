@@ -19,7 +19,7 @@ class Date {
 
 public:
 
-	Date(); // deefault constructor
+	Date(); // default constructor
 	Date(int d); // conversion constructor
 	Date(int y, int m, int d); // constructor takes 3 parameters
 	~Date(); // destructor
